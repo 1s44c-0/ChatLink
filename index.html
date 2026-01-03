@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO -->
+  <title>WhatsApp Link Generator – Create Click to Chat Links Instantly</title>
+  <meta name="description" content="Free WhatsApp link generator. Create WhatsApp chat links, QR codes, business links and copy instantly.">
+  <meta name="keywords" content="WhatsApp link generator, WhatsApp chat link, WhatsApp QR code, click to chat">
+  <meta name="author" content="Swishly">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="WhatsApp Link Generator">
+  <meta property="og:description" content="Create WhatsApp chat links and QR codes instantly.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PropellerAds (HEAD SCRIPT) -->
+  <!-- Replace with your real PropellerAds code -->
+  <script>
+    // PropellerAds Script Here
+  </script>
+</head>
+
+<body>
+
+<header>
+  <h1>WhatsApp Link Generator</h1>
+  <p>Create WhatsApp chat links & QR codes instantly</p>
+</header>
+
+<!-- PropellerAds TOP BANNER -->
+<div class="ad-slot">
+  <!-- PropellerAds banner code here -->
+</div>
+
+<main>
+
+  <div class="form-row">
+    <div class="country-select">
+      <button id="countryBtn">🇳🇬 +234</button>
+      <div class="country-dropdown" id="countryDropdown">
+        <input type="text" placeholder="Search country..." id="searchCountry">
+        <ul id="countryList"></ul>
+      </div>
+    </div>
+
+    <input type="tel" id="phone" placeholder="Phone number (e.g. 08012345678)">
+  </div>
+
+  <textarea id="message" placeholder="Optional message"></textarea>
+
+  <button class="generate-btn" onclick="generateLink()">Generate WhatsApp Link</button>
+
+  <div class="result" id="result"></div>
+
+  <div class="actions">
+    <button onclick="copyLink()">Copy Link</button>
+    <button onclick="generateQR()">Generate QR Code</button>
+  </div>
+
+  <div id="qr"></div>
+
+</main>
+
+<!-- PropellerAds BOTTOM BANNER -->
+<div class="ad-slot">
+  <!-- PropellerAds banner code here -->
+</div>
+
+<footer>
+  <p>Free WhatsApp Tools • Built for creators</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
